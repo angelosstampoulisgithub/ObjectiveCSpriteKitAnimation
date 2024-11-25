@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60D47F32C9F612F00CC0225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D47F22C9F612F00CC0225 /* AppDelegate.m */; };
+		D60D47F62C9F612F00CC0225 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D47F52C9F612F00CC0225 /* ViewController.m */; };
+		D60D47F82C9F613000CC0225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60D47F72C9F613000CC0225 /* Assets.xcassets */; };
+		D60D47FB2C9F613000CC0225 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D60D47FA2C9F613000CC0225 /* Base */; };
+		D60D47FD2C9F613100CC0225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D47FC2C9F613100CC0225 /* main.m */; };
+		D60D48082C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D48072C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests.m */; };
+		D60D48122C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D48112C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests.m */; };
+		D60D48142C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D48132C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITestsLaunchTests.m */; };
+		D60D48222C9F61AA00CC0225 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60D48212C9F61A900CC0225 /* SpriteKit.framework */; };
+		D60D48242C9F621700CC0225 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = D60D48232C9F621700CC0225 /* Snow.sks */; };
+		D60D48262C9F627400CC0225 /* christmas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D60D48252C9F627400CC0225 /* christmas.jpg */; };
+		D60D48292C9F62A200CC0225 /* MySKView.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D48282C9F62A200CC0225 /* MySKView.m */; };
+		D60D482C2C9F62D900CC0225 /* SnowScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D482B2C9F62D900CC0225 /* SnowScene.m */; };
+		D63CE11A2CF503E2001B2880 /* jingle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D63CE1192CF503E2001B2880 /* jingle.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D60D48042C9F613100CC0225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60D47E62C9F612F00CC0225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60D47ED2C9F612F00CC0225;
+			remoteInfo = ObjectiveCSpriteKitOSXAnimation;
+		};
+		D60D480E2C9F613100CC0225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60D47E62C9F612F00CC0225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60D47ED2C9F612F00CC0225;
+			remoteInfo = ObjectiveCSpriteKitOSXAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D60D47EE2C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCSpriteKitOSXAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60D47F12C9F612F00CC0225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D60D47F22C9F612F00CC0225 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D60D47F42C9F612F00CC0225 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D60D47F52C9F612F00CC0225 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D60D47F72C9F613000CC0225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D60D47FA2C9F613000CC0225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D60D47FC2C9F613100CC0225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D60D47FE2C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ObjectiveCSpriteKitOSXAnimation.entitlements; sourceTree = "<group>"; };
+		D60D48032C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCSpriteKitOSXAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60D48072C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCSpriteKitOSXAnimationTests.m; sourceTree = "<group>"; };
+		D60D480D2C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCSpriteKitOSXAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60D48112C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCSpriteKitOSXAnimationUITests.m; sourceTree = "<group>"; };
+		D60D48132C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCSpriteKitOSXAnimationUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D60D48212C9F61A900CC0225 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D60D48232C9F621700CC0225 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		D60D48252C9F627400CC0225 /* christmas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = christmas.jpg; sourceTree = "<group>"; };
+		D60D48272C9F62A200CC0225 /* MySKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySKView.h; sourceTree = "<group>"; };
+		D60D48282C9F62A200CC0225 /* MySKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySKView.m; sourceTree = "<group>"; };
+		D60D482A2C9F62D900CC0225 /* SnowScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowScene.h; sourceTree = "<group>"; };
+		D60D482B2C9F62D900CC0225 /* SnowScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowScene.m; sourceTree = "<group>"; };
+		D63CE1192CF503E2001B2880 /* jingle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jingle.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60D47EB2C9F612F00CC0225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D48222C9F61AA00CC0225 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60D48002C9F613100CC0225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60D480A2C9F613100CC0225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60D47E52C9F612F00CC0225 = {
+			isa = PBXGroup;
+			children = (
+				D60D47F02C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation */,
+				D60D48062C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests */,
+				D60D48102C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests */,
+				D60D47EF2C9F612F00CC0225 /* Products */,
+				D60D48202C9F61A900CC0225 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D60D47EF2C9F612F00CC0225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60D47EE2C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation.app */,
+				D60D48032C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests.xctest */,
+				D60D480D2C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60D47F02C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D63CE1192CF503E2001B2880 /* jingle.mp3 */,
+				D63CE1182CF503AD001B2880 /* View */,
+				D63CE1172CF5039E001B2880 /* Scene */,
+				D60D48252C9F627400CC0225 /* christmas.jpg */,
+				D60D47F12C9F612F00CC0225 /* AppDelegate.h */,
+				D60D47F22C9F612F00CC0225 /* AppDelegate.m */,
+				D60D47F72C9F613000CC0225 /* Assets.xcassets */,
+				D60D47F92C9F613000CC0225 /* Main.storyboard */,
+				D60D47FC2C9F613100CC0225 /* main.m */,
+				D60D47FE2C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimation.entitlements */,
+				D60D48232C9F621700CC0225 /* Snow.sks */,
+			);
+			path = ObjectiveCSpriteKitOSXAnimation;
+			sourceTree = "<group>";
+		};
+		D60D48062C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D60D48072C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests.m */,
+			);
+			path = ObjectiveCSpriteKitOSXAnimationTests;
+			sourceTree = "<group>";
+		};
+		D60D48102C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D60D48112C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests.m */,
+				D60D48132C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITestsLaunchTests.m */,
+			);
+			path = ObjectiveCSpriteKitOSXAnimationUITests;
+			sourceTree = "<group>";
+		};
+		D60D48202C9F61A900CC0225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60D48212C9F61A900CC0225 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D63CE1172CF5039E001B2880 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D60D48272C9F62A200CC0225 /* MySKView.h */,
+				D60D48282C9F62A200CC0225 /* MySKView.m */,
+				D60D482A2C9F62D900CC0225 /* SnowScene.h */,
+				D60D482B2C9F62D900CC0225 /* SnowScene.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D63CE1182CF503AD001B2880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D60D47F42C9F612F00CC0225 /* ViewController.h */,
+				D60D47F52C9F612F00CC0225 /* ViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60D47ED2C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60D48172C9F613100CC0225 /* Build configuration list for PBXNativeTarget "ObjectiveCSpriteKitOSXAnimation" */;
+			buildPhases = (
+				D60D47EA2C9F612F00CC0225 /* Sources */,
+				D60D47EB2C9F612F00CC0225 /* Frameworks */,
+				D60D47EC2C9F612F00CC0225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCSpriteKitOSXAnimation;
+			productName = ObjectiveCSpriteKitOSXAnimation;
+			productReference = D60D47EE2C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D60D48022C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60D481A2C9F613100CC0225 /* Build configuration list for PBXNativeTarget "ObjectiveCSpriteKitOSXAnimationTests" */;
+			buildPhases = (
+				D60D47FF2C9F613100CC0225 /* Sources */,
+				D60D48002C9F613100CC0225 /* Frameworks */,
+				D60D48012C9F613100CC0225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60D48052C9F613100CC0225 /* PBXTargetDependency */,
+			);
+			name = ObjectiveCSpriteKitOSXAnimationTests;
+			productName = ObjectiveCSpriteKitOSXAnimationTests;
+			productReference = D60D48032C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D60D480C2C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60D481D2C9F613100CC0225 /* Build configuration list for PBXNativeTarget "ObjectiveCSpriteKitOSXAnimationUITests" */;
+			buildPhases = (
+				D60D48092C9F613100CC0225 /* Sources */,
+				D60D480A2C9F613100CC0225 /* Frameworks */,
+				D60D480B2C9F613100CC0225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60D480F2C9F613100CC0225 /* PBXTargetDependency */,
+			);
+			name = ObjectiveCSpriteKitOSXAnimationUITests;
+			productName = ObjectiveCSpriteKitOSXAnimationUITests;
+			productReference = D60D480D2C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60D47E62C9F612F00CC0225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D60D47ED2C9F612F00CC0225 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D60D48022C9F613100CC0225 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D60D47ED2C9F612F00CC0225;
+					};
+					D60D480C2C9F613100CC0225 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D60D47ED2C9F612F00CC0225;
+					};
+				};
+			};
+			buildConfigurationList = D60D47E92C9F612F00CC0225 /* Build configuration list for PBXProject "ObjectiveCSpriteKitOSXAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D60D47E52C9F612F00CC0225;
+			productRefGroup = D60D47EF2C9F612F00CC0225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60D47ED2C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation */,
+				D60D48022C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests */,
+				D60D480C2C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60D47EC2C9F612F00CC0225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D48242C9F621700CC0225 /* Snow.sks in Resources */,
+				D63CE11A2CF503E2001B2880 /* jingle.mp3 in Resources */,
+				D60D47F82C9F613000CC0225 /* Assets.xcassets in Resources */,
+				D60D48262C9F627400CC0225 /* christmas.jpg in Resources */,
+				D60D47FB2C9F613000CC0225 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60D48012C9F613100CC0225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60D480B2C9F613100CC0225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60D47EA2C9F612F00CC0225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D482C2C9F62D900CC0225 /* SnowScene.m in Sources */,
+				D60D48292C9F62A200CC0225 /* MySKView.m in Sources */,
+				D60D47F62C9F612F00CC0225 /* ViewController.m in Sources */,
+				D60D47FD2C9F613100CC0225 /* main.m in Sources */,
+				D60D47F32C9F612F00CC0225 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60D47FF2C9F613100CC0225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D48082C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60D48092C9F613100CC0225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D48142C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITestsLaunchTests.m in Sources */,
+				D60D48122C9F613100CC0225 /* ObjectiveCSpriteKitOSXAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60D48052C9F613100CC0225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60D47ED2C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation */;
+			targetProxy = D60D48042C9F613100CC0225 /* PBXContainerItemProxy */;
+		};
+		D60D480F2C9F613100CC0225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60D47ED2C9F612F00CC0225 /* ObjectiveCSpriteKitOSXAnimation */;
+			targetProxy = D60D480E2C9F613100CC0225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D60D47F92C9F613000CC0225 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60D47FA2C9F613000CC0225 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60D48152C9F613100CC0225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D60D48162C9F613100CC0225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D60D48182C9F613100CC0225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ObjectiveCSpriteKitOSXAnimation/ObjectiveCSpriteKitOSXAnimation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCSpriteKitOSXAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		D60D48192C9F613100CC0225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ObjectiveCSpriteKitOSXAnimation/ObjectiveCSpriteKitOSXAnimation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCSpriteKitOSXAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		D60D481B2C9F613100CC0225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCSpriteKitOSXAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCSpriteKitOSXAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectiveCSpriteKitOSXAnimation";
+			};
+			name = Debug;
+		};
+		D60D481C2C9F613100CC0225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCSpriteKitOSXAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCSpriteKitOSXAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectiveCSpriteKitOSXAnimation";
+			};
+			name = Release;
+		};
+		D60D481E2C9F613100CC0225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCSpriteKitOSXAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ObjectiveCSpriteKitOSXAnimation;
+			};
+			name = Debug;
+		};
+		D60D481F2C9F613100CC0225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCSpriteKitOSXAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ObjectiveCSpriteKitOSXAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60D47E92C9F612F00CC0225 /* Build configuration list for PBXProject "ObjectiveCSpriteKitOSXAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60D48152C9F613100CC0225 /* Debug */,
+				D60D48162C9F613100CC0225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60D48172C9F613100CC0225 /* Build configuration list for PBXNativeTarget "ObjectiveCSpriteKitOSXAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60D48182C9F613100CC0225 /* Debug */,
+				D60D48192C9F613100CC0225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60D481A2C9F613100CC0225 /* Build configuration list for PBXNativeTarget "ObjectiveCSpriteKitOSXAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60D481B2C9F613100CC0225 /* Debug */,
+				D60D481C2C9F613100CC0225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60D481D2C9F613100CC0225 /* Build configuration list for PBXNativeTarget "ObjectiveCSpriteKitOSXAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60D481E2C9F613100CC0225 /* Debug */,
+				D60D481F2C9F613100CC0225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D60D47E62C9F612F00CC0225 /* Project object */;
+}
